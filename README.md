@@ -1,7 +1,7 @@
 ### How to install ###
 
 ```
-go get github.com/ericbear/go_telegram_bot_request
+go get github.com/ericbear/go_telegram_bot_request/message
 ```
 
 ### Request Protocol for Telegram Bot ###
