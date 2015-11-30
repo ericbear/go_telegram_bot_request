@@ -8,6 +8,10 @@ import (
 	"fmt"
 )
 
+func GetUrl(token string) string {
+	return fmt.Sprintf("https://api.telegram.org/bot%s/", token)
+}
+
 func GetUpdates(url string, lastUpdateId int) Response {
 	u := fmt.Sprintf("%s%s", url, "getUpdates")
 	
